@@ -7,10 +7,21 @@ function Navbar() {
     <header className="fixed w-full">
       <div className="text-white flex justify-between items-center w-full h-14 p-5 bg-black">
         <p src="" alt="" className="w-auto text-md font-bold uppercase">Karan Gupta</p>
-        <div
-          className="items-center h-10 p-5 bg-red-800 hover:bg-yellow-500 hover:text-black"
-          onClick={() => setToggle(!Toggle)}
-        ></div>
+        
+<button class="" onClick={()=>setToggle(!Toggle)}>
+              <svg
+                class="w-10 h-10 text-gray-500"
+                // x-show="!showMenu"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
       </div>
       {Toggle && (
         <div className="flex flex-col bg-gradient-to-r from-gray-400 to-gray-600 text-white font-sans font-semibold shadow-sm rounded-b-xl">
