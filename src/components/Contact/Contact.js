@@ -30,7 +30,7 @@ function Contact() {
         </div>
       </div>
       <div className="flex my-2 w-80 h-20 bg-red-500 ml-5 text-white items-center justify-around rounded-xl px-5">
-        <img src="https://cdn-icons.flaticon.com/png/128/4212/premium/4212312.png?token=exp=1647676726~hmac=58ae6de9e8a14892029973ffaab3b92e" alt="" className="w-10 h-10" />
+        <img src="https://cdn-icons.flaticon.com/png/512/5359/premium/5359467.png?token=exp=1647680314~hmac=18cb81b2edadbc0c59016533d4cc50bf" alt="" className="w-10 h-10" />
         <div className="flex flex-col items-center">
           <p className="text-2xl font-bold">My resume</p>
           <button className="text-sm my-1 py-1 border border-blue-800 hover:bg-blue-700 px-5 mb-2 shadow-2xl transition duration-200 rounded-md">
