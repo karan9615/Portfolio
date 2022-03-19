@@ -26,13 +26,13 @@ function Navbar() {
       {Toggle && (
         <div className="flex flex-col font-bold bg-gradient-to-r from-gray-600 to-gray-700 text-white font-sans shadow-sm rounded-b-xl">
           <Link
-            to="about"
+            to="/"
             className="p-2 py-3 hover:bg-red-500 hover:text-gray-300  rounded-xl transition duration-300"
           >
             Home
           </Link>
           <Link
-            to="about"
+            to="/"
             className="p-2 py-3 hover:bg-red-500 hover:text-gray-300 rounded-xl transition duration-300"
           >
             About
