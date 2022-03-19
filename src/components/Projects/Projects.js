@@ -18,9 +18,11 @@ function Projects() {
       </h1>
       <div className='my-10'>
         <ProfileCard name="Virtual Restaurant" taglin="Realistic restaurant website" img="https://cdn-icons-png.flaticon.com/512/45/45332.png" />
-        <ProfileCard name="GeekforGeeks" taglin="this is profile card is temporary" img="" />
-        <ProfileCard name="GeekforGeeks" taglin="this is profile card is temporary" img="" />
-        <ProfileCard name="GeekforGeeks" taglin="this is profile card is temporary" img="" />
+        <ProfileCard name="Facebook Signup clone" taglin="this is the front-end of the facebook Signup/Sigin" img="https://cdn-icons-png.flaticon.com/512/1828/1828503.png" />
+        <ProfileCard name="Single page website" taglin="" img="https://cdn-icons-png.flaticon.com/512/1231/1231223.png" />
+        <ProfileCard name="SRMS" taglin="Student Result Management System" img="https://cdn-icons-png.flaticon.com/512/839/839986.png" />
+        <ProfileCard name="OBS" taglin="Online Banking Software" img="https://cdn-icons-png.flaticon.com/512/839/839986.png" />
+
       </div>
     </div>
   )
