@@ -5,7 +5,7 @@ function Navbar() {
   const [Toggle, setToggle] = useState(false);
   return (
     <header className="fixed w-full">
-      <div className="text-white flex justify-between items-center w-full h-14 p-5 bg-gradient-to-r from-gray-700 to-gray-900">
+      <div className="text-white flex justify-between items-center w-full h-14 p-5 bg-gradient-to-r from-gray-700 to-gray-900 shadow-lg">
         <p src="" alt="" className="w-auto text-md font-bold uppercase">Karan Gupta</p>
         
 <button class="" onClick={()=>setToggle(!Toggle)}>
@@ -24,46 +24,46 @@ function Navbar() {
             </button>
       </div>
       {Toggle && (
-        <div className="flex flex-col bg-gradient-to-r from-gray-400 to-gray-600 text-white font-sans font-semibold shadow-sm rounded-b-xl">
+        <div className="flex flex-col font-bold bg-gradient-to-r from-gray-600 to-gray-700 text-white font-sans shadow-sm rounded-b-xl">
           <Link
             to="about"
-            className="p-2 py-3 hover:bg-blue-400 hover:text-white rounded-xl transition duration-300"
+            className="p-2 py-3 hover:bg-red-300 hover:text-gray-600  rounded-xl transition duration-300"
           >
             Home
           </Link>
           <Link
             to="about"
-            className="p-2 py-3 hover:bg-blue-400 hover:text-white rounded-xl transition duration-300"
+            className="p-2 py-3 hover:bg-red-300 hover:text-gray-600 rounded-xl transition duration-300"
           >
             About
           </Link>
           <Link
             to="resume"
-            className="p-2 py-3 hover:bg-blue-400 hover:text-white rounded-xl transition duration-300"
+            className="p-2 py-3 hover:bg-red-300 hover:text-gray-600 rounded-xl transition duration-300"
           >
             Resume
           </Link>
           <Link
             to="projects"
-            className="p-2 py-3 hover:bg-blue-400 hover:text-white rounded-xl transition duration-300"
+            className="p-2 py-3 hover:bg-red-300 hover:text-gray-600  rounded-xl transition duration-300"
           >
             Projects
           </Link>
           <Link
             to="certification"
-            className="p-2 py-3 hover:bg-blue-400 hover:text-white rounded-xl transition duration-300"
+            className="p-2 py-3 hover:bg-red-300 hover:text-gray-600  rounded-xl transition duration-300"
           >
             Certifications
           </Link>
           <Link
             to="profile"
-            className="p-2 py-3 hover:bg-blue-400 hover:text-white rounded-xl transition duration-300"
+            className="p-2 py-3 hover:bg-red-300 hover:text-gray-600  rounded-xl transition duration-300"
           >
             Profile
           </Link>
           <Link
             to="contact"
-            className="p-2 py-3 hover:bg-blue-400 hover:text-white rounded-xl transition duration-300"
+            className="p-2 py-3 hover:bg-red-300 hover:text-gray-600  rounded-xl transition duration-300"
           >
             Conatct
           </Link>
