@@ -3,7 +3,7 @@ import React from "react";
 const ProfileCard = ({ number, heading }) => {
   return (
     <div className="shadow-inner hover:scale-105 flex flex-col my-5 bg-gradient-to-r from-red-600 to-red-500 text-white rounded-lg py-5 min-w-48 min-h-48 justify-center items-center px-4 sm:px-0">
-      <h1 className="font-mono text-3xl font-bold">{number}</h1>
+      <h1 className="font-mono text-3xl font-bold" style={{fontFamily:"Fredoka,sans-serif"}}>{number}</h1>
       <h1 className=" text-md font-light">{heading}</h1>
     </div>
   );
@@ -28,10 +28,10 @@ const ProgresBar = ({ label, length }) => {
   );
 };
 
-const InterestCard = ({name}) => {
+const InterestCard = ({name,img}) => {
   return (
     <div className="mt-2 hover:bg-red-700 flex items-center bg-red-600 py-3 text-left pl-5 text-white font-semibold">
-        <img className="w-10 h-7" />
+        <img className="w-10 h-10" src={img} />
         <div className="ml-5">{name}</div>
     </div>
   );
@@ -80,7 +80,7 @@ function About() {
       <ProfileCard number="6" heading="Courses" />
       <ProfileCard number="700" heading="Problems Solved" />
 
-      <h1 style={{fontFamily:"Anton,sans-serif"}} className="text-2xl tracking-widset uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
+      <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="text-2xl tracking-widset uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
         Skills
       </h1>
       <ProgresBar label="C++ programming" length="90" />
@@ -91,14 +91,14 @@ function About() {
       <ProgresBar label="Algorithms" length="90" />
       <ProgresBar label="MERN" length="90" />
 
-      <h1 className="text-2xl uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
+      <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="text-2xl uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
         Interests
       </h1>
       <div className="mt-10">
-      <InterestCard name="Compeitive Programming"/>
-      <InterestCard name="Full Stack Development" />
-      <InterestCard name="News" />
-      <InterestCard name="Research" />
+      <InterestCard name="Compeitive Programming" img="https://cdn-icons-png.flaticon.com/512/3721/3721726.png"/>
+      <InterestCard name="Full Stack Development" img="https://cdn-icons-png.flaticon.com/512/2301/2301273.png" />
+      <InterestCard name="News" img="https://cdn-icons.flaticon.com/png/512/3055/premium/3055743.png?token=exp=1647667572~hmac=6243afdeb7b8556b3aa3edea7c90b636" />
+      <InterestCard name="Research" img="https://cdn-icons-png.flaticon.com/512/598/598059.png" />
       </div>
     </div>
     </>
