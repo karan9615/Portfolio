@@ -27,7 +27,7 @@ function Resume() {
       </div>
       <ol className="list-disc p-5 text-left text-sm">
         <li className="font-semibold">
-          <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold text-red-600 uppercase">
+          <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold text-red-500 uppercase">
             Bachelor of technology, Computer Scinence & Engineering
           </p>
           <p style={{fontFamily:"Fredoka,sans-serif"}} className="font-mono mt-2 py-1 bg-gradient-to-r from-gray-500 to-gray-300 text-center w-24 px-2">
@@ -41,7 +41,7 @@ function Resume() {
           <p className="py-1">Percentage - <span  style={{fontFamily:"Fredoka,sans-serif"}} >85.21%</span></p>
         </li>
         <li className="font-semibold">
-          <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold mt-2 text-red-600 uppercase">
+          <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold mt-2 text-red-500 uppercase">
             Senior Secondry(12th),CBSE Board
           </p>
           <p style={{fontFamily:"Fredoka,sans-serif"}}  className="font-mono mt-2 py-1 bg-gradient-to-r from-gray-500 to-gray-300 text-center w-24 px-2">
@@ -53,7 +53,7 @@ function Resume() {
           <p className="py-1" >Percentage -<span  style={{fontFamily:"Fredoka,sans-serif"}} > 84%</span></p>
         </li>
         <li className="font-semibold">
-          <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold mt-2 text-red-600 uppercase">
+          <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold mt-2 text-red-500 uppercase">
             Secondry(10th),CBSE Board
           </p>
           <p style={{fontFamily:"Fredoka,sans-serif"}}  className="font-mono mt-2 py-1 bg-gradient-to-r from-gray-500 to-gray-300 text-center w-24 px-2">
@@ -71,7 +71,7 @@ function Resume() {
       </div>
       <ol className="list-disc p-5 text-left text-sm">
         <li className="font-semibold">
-          <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold text-red-600 uppercase">
+          <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold text-red-500 uppercase">
             Solving Problems on Platforms:-
           </p>
           <ol className="list-disc pl-5 py-1 text-lg font-normal"  style={{fontFamily:"Fredoka,sans-serif"}} >
