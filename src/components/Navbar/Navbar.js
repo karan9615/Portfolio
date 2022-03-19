@@ -5,7 +5,7 @@ function Navbar() {
   const [Toggle, setToggle] = useState(false);
   return (
     <header className="fixed w-full">
-      <div className="text-white flex justify-between items-center w-full h-14 p-5 bg-black">
+      <div className="text-white flex justify-between items-center w-full h-14 p-5 bg-gradient-to-r from-gray-700 to-gray-900">
         <p src="" alt="" className="w-auto text-md font-bold uppercase">Karan Gupta</p>
         
 <button class="" onClick={()=>setToggle(!Toggle)}>
