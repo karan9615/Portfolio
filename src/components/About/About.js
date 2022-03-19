@@ -41,10 +41,10 @@ function About() {
   return (
     <>
     <div className="my-5 p-5 text-left">
-      <p className="text-2xl text-red-600 font-bold font-sans">
+      <p className="text-2xl text-red-600 font-bold" style={{fontFamily:"Sora, sans-serif"}}>
         Hello! I am Karan,
       </p>
-      <p className="mt-5">
+      <p className="mt-5" >
         I am currently pursuing B.Tech. Degree in Computer Science & Engineering
         from Maharaja Agrasen Institute of Technology, Delhi. I know C,C++,Java
         and Python programming language with strong command DSA. I am also a

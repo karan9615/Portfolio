@@ -13,7 +13,7 @@ import Certification from "./components/Certifications/Certification"
 import {Route,Routes} from "react-router-dom";
 function App() {
   return (
-    <div className="App bg-gray-800 text-white">
+    <div className="App bg-gray-800 text-white" style={{fontFamily:"Roboto,sans-serif"}}>
       <Navbar />
       <Header />
       <Routes>
