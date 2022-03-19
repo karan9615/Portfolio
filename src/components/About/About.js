@@ -4,7 +4,7 @@ const ProfileCard = ({ number, heading }) => {
   return (
     <div className="shadow-inner hover:scale-105 flex flex-col my-5 bg-gradient-to-r from-red-600 to-red-500 text-white rounded-lg py-5 min-w-48 min-h-48 justify-center items-center px-4 sm:px-0">
       <h1 className="font-mono text-3xl font-bold" style={{fontFamily:"Fredoka,sans-serif"}}>{number}</h1>
-      <h1 className=" text-md font-light">{heading}</h1>
+      <h1 className=" text-md text-center font-light">{heading}</h1>
     </div>
   );
 };

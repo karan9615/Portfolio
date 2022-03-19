@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProfileCard = ({name,taglin,img}) => {
   return (
-    <div className='flex flex-col items-center mx-auto bg-gradient-to-r from-red-700 via-red-400 to-red-500 w-64 justify-center py-5 my-2'>
+    <div style={{fontFamily:"Manrope,sans-serif"}} className='hover:scale-105 flex flex-col items-center mx-auto bg-gradient-to-r from-red-700 via-red-400 to-red-500 w-64 justify-center py-5 my-2'>
         <img src={img} alt='' className='h-10 w-10' />
         <h1 className='mt-2 text-white font-bold text-xl'>{name}</h1>
         <p className='text-white text-sm'>{taglin}</p>

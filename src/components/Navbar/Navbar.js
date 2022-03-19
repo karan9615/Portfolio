@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <header className="fixed w-full">
       <div className="text-white flex justify-between items-center w-full h-14 p-5 bg-gradient-to-r from-gray-700 to-gray-900 shadow-lg">
-        <p src="" alt="" className="w-auto text-md font-bold uppercase">Karan Gupta</p>
+        <p style={{fontFamily:"Roboto,sans-serif"}} className="w-auto text-md font-bold uppercase">Karan Gupta</p>
         
 <button class="" onClick={()=>setToggle(!Toggle)}>
               <svg
