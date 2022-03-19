@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfileCard = ({ number, heading }) => {
   return (
-    <div className="hover:scale-105 flex flex-col my-5 bg-gradient-to-r from-red-600 to-red-500 text-white rounded-lg py-5 min-w-48 min-h-48 justify-center items-center px-4 sm:px-0">
+    <div className="shadow-inner hover:scale-105 flex flex-col my-5 bg-gradient-to-r from-red-600 to-red-500 text-white rounded-lg py-5 min-w-48 min-h-48 justify-center items-center px-4 sm:px-0">
       <h1 className="font-mono text-3xl font-bold">{number}</h1>
       <h1 className=" text-md font-light">{heading}</h1>
     </div>
@@ -15,7 +15,7 @@ const ProgresBar = ({ label, length }) => {
       <label>
         <div className="flex justify-between font-semibold text-sm uppercase">
           <p>{label}</p>
-          <p className="text-gray-700">{length}%</p>
+          <p className="text-gray-400" style={{fontFamily:"Fredoka,sans-serif"}}>{length}%</p>
         </div>
         <div className="w-full h-2 bg-gray-300">
           <div
@@ -80,7 +80,7 @@ function About() {
       <ProfileCard number="6" heading="Courses" />
       <ProfileCard number="700" heading="Problems Solved" />
 
-      <h1 className="text-2xl uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
+      <h1 style={{fontFamily:"Anton,sans-serif"}} className="text-2xl tracking-widset uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
         Skills
       </h1>
       <ProgresBar label="C++ programming" length="90" />
