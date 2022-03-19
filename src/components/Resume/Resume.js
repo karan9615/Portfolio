@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   return (
-    <div className="px-5" style={{fontFamily:"Manrope,sans-serif"}}>
+    <div className="px-5">
       <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="text-2xl uppercase font-bold mt-5 flex py-2 border border-b-red-600 justify-center ">
         Resume
       </h1>
@@ -12,7 +12,7 @@ function Resume() {
       <div style={{fontFamily:"Manrope,sans-serif"}} className="text-xl w-20 mt-5 font-semibold text-left border border-b-0 border-r-0 border-t-0 border-l-2 pl-2 border-red-600 ">
         Summary
       </div>
-      <ol style={{fontFamily:"Fredoka,sans-serif"}} className="list-disc p-5 text-justify">
+      <ol className="list-disc p-5 text-left">
         <li>
           I am enthusiastic Undergraduate with highly motivated skills pursuing
           bachelor of technology degree in Computer Science & Engineering from
