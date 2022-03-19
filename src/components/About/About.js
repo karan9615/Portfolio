@@ -16,10 +16,10 @@ const ProgresBar = ({ label, length }) => {
         <div className="flex justify-between font-semibold text-sm uppercase">
           <p>{label}</p>
           <p className="text-gray-400" style={{fontFamily:"Fredoka,sans-serif"}}>{length}%</p>
-        </div>
-        <div className="w-full h-2 bg-gray-300">
+        </div> 
+        <div className="w-full h-2 bg-gray-300 rounded-xl">
           <div
-            className="bg-gradient-to-r from-blue-400 to-blue-700 h-2 mt-2"
+            className="rounded-xl bg-gradient-to-r from-blue-400 to-blue-700 h-2 mt-2"
             style={{ width: `${length}%` }}
           ></div>
         </div>
