@@ -21,7 +21,7 @@ function Projects() {
         <ProfileCard name="Facebook Signup clone" taglin="this is the front-end of the facebook Signup/Sigin" img="https://cdn-icons-png.flaticon.com/512/1828/1828503.png" />
         <ProfileCard name="Single page website" taglin="" img="https://cdn-icons-png.flaticon.com/512/1231/1231223.png" />
         <ProfileCard name="SRMS" taglin="Student Result Management System" img="https://cdn-icons-png.flaticon.com/512/839/839986.png" />
-        <ProfileCard name="OBS" taglin="Online Banking Software" img="https://cdn-icons-png.flaticon.com/512/839/839986.png" />
+        <ProfileCard name="OBS" taglin="Online Banking Software" img="https://cdn-icons.flaticon.com/png/512/5461/premium/5461910.png?token=exp=1647675957~hmac=dd82aac8bd4adcf063c0ceeb5eef18b3" />
 
       </div>
     </div>
