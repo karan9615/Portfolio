@@ -8,7 +8,7 @@ function Header() {
           <p className="text-xl mt-16 px-5 py-1 rounded-lg  bg-gradient-to-r from-red-600  to-blue-600 font-sans">Karan Kumar Gupta</p>
           <span className="font-semibold font-mono" >(Website Developer)</span>
         </div>
-        <img src="my image.png" alt="My_image" className="w-[100px] h-[100px] bg-gray-600 border border-b-2 border-l-2 border-r-0 border-t-0 items-center shadow-lg shadow-slate-300 mt-10" />
+        <img src="my image.png" alt="My_image" className="w-[100px] h-[100px] bg-gray-600 border border-b-2 border-l-2 border-r-0 border-t-0 items-center shadow-lg shadow-slate-300 mt-10 block" />
       </div>
     </div>
   );
