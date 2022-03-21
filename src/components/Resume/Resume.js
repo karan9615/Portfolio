@@ -6,9 +6,12 @@ function Resume() {
       <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="text-2xl uppercase font-bold mt-5 flex py-2 border border-b-red-600 justify-center ">
         Resume
       </h1>
+      <div className="flex justify-between items-center">
       <p style={{fontFamily:"Roboto,sans-serif"}} className="text-left text-2xl font-bold text-red-600 mt-5">
         Here is My Resume ...
       </p>
+      <a href="Myresume.pdf" download="KaranKumarGupta_Resume" className="px-5 py-2 border-2 border-blue-600 hover:bg-blue-600 rounded-xl">Download</a>
+      </div> 
       <div style={{fontFamily:"Manrope,sans-serif"}} className="text-xl w-20 mt-5 font-semibold text-left border border-b-0 border-r-0 border-t-0 border-l-2 pl-2 border-red-600 ">
         Summary
       </div>
@@ -99,6 +102,7 @@ function Resume() {
           </ol>
         </li>
       </ol>
+     
     </div>
   );
 }
