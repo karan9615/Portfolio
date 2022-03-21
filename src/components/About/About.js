@@ -41,7 +41,7 @@ function About() {
   return (
     <>
     <div className="my-5 p-5 text-left">
-      <p className="text-2xl text-red-600 font-bold" style={{fontFamily:"Sora, sans-serif"}}>
+      <p className="text-3xl text-red-600 font-bold" style={{fontFamily:"Sora, sans-serif"}}>
         Hello! I am Karan,
       </p>
       <p className="mt-5" >
@@ -71,18 +71,18 @@ function About() {
           <span className="font-bold">Email: </span>karangupta9615@gmail.com
         </p>
       </div>
-      <ProfileCard
-        number="302"
-        heading="Best Rank(Codeforces)(41K+ participants)"
-      />
+      <div className="sm:grid sm:grid-cols-2 sm:gap-x-10 md:grid-cols-3 lg:grid-cols-4">
+      <ProfileCard number="302" heading="Best Rank(Codeforces)(41K+ participants)" />
       <ProfileCard number="5" heading="Project(MERN Stack)" />
       <ProfileCard number="2" heading="Project(PHP)" />
       <ProfileCard number="6" heading="Courses" />
       <ProfileCard number="700" heading="Problems Solved" />
+      </div>
 
-      <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="text-2xl tracking-widset uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
+      <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="sm:w-60 text-2xl tracking-widset uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
         Skills
       </h1>
+      <div className="sm:grid sm:grid-cols-2 sm:gap-x-10 sm:gap-y-5 md:grid-cols-3 lg:grid-cols-4">
       <ProgresBar label="C++ programming" length="90" />
       <ProgresBar label="C programming" length="90" />
       <ProgresBar label="Java programming" length="80" />
@@ -90,11 +90,12 @@ function About() {
       <ProgresBar label="Data Structures" length="90" />
       <ProgresBar label="Algorithms" length="90" />
       <ProgresBar label="MERN" length="90" />
+      </div>
 
-      <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="text-2xl uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
+      <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="text-2xl sm:w-60 uppercase font-bold mt-10 flex py-2 border border-b-red-600 justify-center shadow-xl">
         Interests
       </h1>
-      <div className="mt-10">
+      <div className="mt-10 sm:grid sm:grid-cols-2 sm:gap-x-10 sm:gap-y-5">
       <InterestCard name="Compeitive Programming" img="https://cdn-icons-png.flaticon.com/512/3721/3721726.png"/>
       <InterestCard name="Full Stack Development" img="https://cdn-icons-png.flaticon.com/512/2301/2301273.png" />
       <InterestCard name="News" img="https://cdn-icons.flaticon.com/png/512/3055/premium/3055743.png?token=exp=1647667572~hmac=6243afdeb7b8556b3aa3edea7c90b636" />
