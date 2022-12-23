@@ -1,4 +1,6 @@
 import React from 'react'
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 const ProfileCard = ({name,taglin,img}) => {
   return (
@@ -11,15 +13,18 @@ const ProfileCard = ({name,taglin,img}) => {
 }
 
 function Projects() {
+  Aos.init({
+    // offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+    delay: 100,
+  });
   return (
     <div className='mx-5'>
-      <span>
-        temp
-      </span>
       <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="text-2xl uppercase font-bold mt-5 flex py-2 border border-b-red-600 justify-center ">
         Projects
       </h1>
-      <div className='my-10 grid grid-cols-1 gap-x-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:px-20'>
+      <div className='my-10 grid grid-cols-1 gap-x-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:px-20' data-aos="zoom-in-up">
         <ProfileCard name="Virtual Restaurant" taglin="Realistic restaurant website" img="https://cdn-icons-png.flaticon.com/512/45/45332.png" />
         <ProfileCard name="Facebook Signup clone" taglin="this is the front-end of the facebook Signup/Sigin" img="https://cdn-icons-png.flaticon.com/512/1828/1828503.png" />
         <ProfileCard name="Single page website" taglin="" img="https://cdn-icons-png.flaticon.com/512/1231/1231223.png" />

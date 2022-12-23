@@ -1,6 +1,14 @@
 import React from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function Resume() {
+  Aos.init({
+    offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+    delay: 100,
+  });
   return (
     <div className="px-5 sm:px-20">
       
@@ -27,7 +35,7 @@ function Resume() {
         Education
       </div>
       <ol className="list-disc p-5 text-left text-sm  sm:tracking-wider sm:leading-9">
-        <li className="font-semibold">
+        <li className="font-semibold" data-aos="fade-right">
           <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md  sm:tracking-wider sm:leading-9  font-semibold text-red-500 uppercase">
             Bachelor of technology, Computer Scinence & Engineering
           </p>
@@ -41,7 +49,7 @@ function Resume() {
           <p className="py-1  sm:tracking-wider sm:leading-9 ">Current CGPA - <span  style={{fontFamily:"Fredoka,sans-serif"}} >8.97</span></p>
           <p className="py-1  sm:tracking-wider sm:leading-9 ">Percentage - <span  style={{fontFamily:"Fredoka,sans-serif"}} >85.21%</span></p>
         </li>
-        <li className="font-semibold  sm:tracking-wider sm:leading-9 ">
+        <li className="font-semibold  sm:tracking-wider sm:leading-9 "  data-aos="fade-right">
           <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold mt-2 text-red-500 uppercase">
             Senior Secondry(12th),CBSE Board
           </p>
@@ -53,7 +61,7 @@ function Resume() {
           </p>
           <p className="py-1  sm:tracking-wider sm:leading-9 " >Percentage -<span  style={{fontFamily:"Fredoka,sans-serif"}} > 84%</span></p>
         </li>
-        <li className="font-semibold  sm:tracking-wider sm:leading-9 ">
+        <li className="font-semibold  sm:tracking-wider sm:leading-9 "  data-aos="fade-right">
           <p style={{fontFamily:"Roboto,sans-serif"}} className="text-md font-semibold mt-2 text-red-500 uppercase">
             Secondry(10th),CBSE Board
           </p>
@@ -67,6 +75,7 @@ function Resume() {
         </li>
       </ol>
       {/* google kickstart rank codeforces 4star codechef codejam hashcode  */}
+      <div  data-aos="fade-up">
       <div style={{fontFamily:"Manrope,sans-serif"}} className=" sm:tracking-wider sm:leading-9 text-xl mt-5 font-semibold text-left border border-b-0 border-r-0 border-t-0 border-l-2 pl-2 border-red-600 ">
         Programming Profile
       </div>
@@ -100,6 +109,7 @@ function Resume() {
           </ol>
         </li>
       </ol>
+      </div>
      
     </div>
   );

@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react' 
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 const ProfileCard = ({name,taglin,img}) => {
   return (
@@ -10,14 +12,20 @@ const ProfileCard = ({name,taglin,img}) => {
   )
 }
 
-function Certification() {
+function Certification() { 
+   Aos.init({
+  // offset: 200,
+  duration: 600,
+  easing: 'ease-in-sine',
+  delay: 100,
+});
   return (
     <div>
       <div>
       <h1 className="text-2xl mx-2 uppercase font-bold mt-5 flex py-2 border border-b-red-600 justify-center ">
         Certifications
       </h1>
-      <div className='my-10 sm:grid sm:gap-y-5 sm:gap-x-2 sm:grid-cols-2 md:grid-cols-3 sm:px-20'>
+      <div className='my-10 sm:grid sm:gap-y-5 sm:gap-x-2 sm:grid-cols-2 md:grid-cols-3 sm:px-20' data-aos="zoom-in-up">
         <ProfileCard name="HTML, CSS & JS" taglin="" img="https://cdn-icons-png.flaticon.com/128/1051/1051328.png" />
         <ProfileCard name="Introduction to Machine Learning" taglin="" img="https://cdn-icons.flaticon.com/png/128/6100/premium/6100860.png?token=exp=1652077422~hmac=4fa00e6c65ba351b5f068920ef5606dc" />
         <ProfileCard name="Foundation data everywhere" taglin="" img="https://cdn-icons.flaticon.com/png/128/2839/premium/2839484.png?token=exp=1652077462~hmac=3525f51836ab8d193b566fc3b7a116e5" />

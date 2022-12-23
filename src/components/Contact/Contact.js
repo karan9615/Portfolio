@@ -1,9 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function Contact() {
+  Aos.init({
+    // offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+    delay: 100,
+  });
   return (
-    <div className="flex h-[450px] sm:h-52 sm:px-20 flex-col my-5 mx-5 items-center sm:grid sm:gap-x-5 sm:gap-y-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="flex h-[450px] sm:h-52 sm:px-20 flex-col my-5 mx-5 items-center sm:grid sm:gap-x-5 sm:gap-y-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" data-aos="zoom-in-up">
       <div className="w-80 sm:w-auto flex my-2 h-20 sm:h-40 bg-red-500 hover:scale-105 hover:outline hover:outline-red-400 transition duration-400 hover:shadow-md hover:shadow-gray-700 text-white items-center justify-around rounded-xl px-5 ">
         <img src="https://cdn-icons-png.flaticon.com/128/535/535188.png" alt="" className="w-10 h-10" />
         <div className="flex flex-col items-center" onClick={()=>window.location.href="https://goo.gl/maps/Yrvfu4SJ3p1KBzFJ6"}>
