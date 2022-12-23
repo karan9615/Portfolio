@@ -47,7 +47,7 @@ const InterestCard = ({name,img}) => {
 function About() {
   Aos.init({
     offset: 200,
-    duration: 600,
+    duration: 500,
     easing: 'ease-in-sine',
     delay: 100,
   });

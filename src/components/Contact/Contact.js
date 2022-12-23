@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 function Contact() {
   Aos.init({
     // offset: 200,
-    duration: 600,
+    duration: 500,
     easing: 'ease-in-sine',
     delay: 100,
   });

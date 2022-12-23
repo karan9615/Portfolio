@@ -15,7 +15,7 @@ const ProfileCard = ({name,taglin,img}) => {
 function Certification() { 
    Aos.init({
   // offset: 200,
-  duration: 600,
+  duration: 500,
   easing: 'ease-in-sine',
   delay: 100,
 });
