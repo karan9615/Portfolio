@@ -1,8 +1,12 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
 function Resume() {
+  
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])
   Aos.init({
     offset: 200,
     duration: 500,

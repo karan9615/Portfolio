@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import CountUp from "react-countup";
 import Aos from "aos";
 import 'aos/dist/aos.css'
@@ -45,6 +45,10 @@ const InterestCard = ({name,img}) => {
 };
 
 function About() {
+  
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])
   Aos.init({
     offset: 200,
     duration: 500,

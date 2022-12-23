@@ -145,48 +145,49 @@ function Navbar() {
       </div>
       {Toggle && (
         <div className="flex flex-col font-bold bg-gradient-to-r from-gray-600 to-gray-700 text-white font-sans shadow-sm rounded-b-xl">
-          <Link
+          
+          <div onClick={()=>setToggle(false)} className="p-2 py-3 hover:bg-red-500 hover:text-gray-300  rounded-xl transition duration-300"><Link
             to="/"
-            className="p-2 py-3 hover:bg-red-500 hover:text-gray-300  rounded-xl transition duration-300"
+            
           >
             Home
-          </Link>
-          <Link
+          </Link></div>
+          
+          <div onClick={()=>setToggle(false)} className="p-2 py-3 hover:bg-red-500 hover:text-gray-300 rounded-xl transition duration-300"><Link
             to="/"
-            className="p-2 py-3 hover:bg-red-500 hover:text-gray-300 rounded-xl transition duration-300"
           >
             About
-          </Link>
-          <Link
+          </Link></div>
+          <div onClick={()=>setToggle(false)} className="p-2 py-3 hover:bg-red-500 hover:text-gray-300 rounded-xl transition duration-300"><Link
             to="resume"
-            className="p-2 py-3 hover:bg-red-500 hover:text-gray-300 rounded-xl transition duration-300"
           >
             Resume
-          </Link>
-          <Link
+          </Link></div>
+          
+          <div onClick={()=>setToggle(false)} className="p-2 py-3 hover:bg-red-500 hover:text-gray-300 rounded-xl transition duration-300"><Link
             to="projects"
-            className="p-2 py-3 hover:bg-red-500 hover:text-gray-300  rounded-xl transition duration-300"
           >
             Projects
-          </Link>
-          <Link
+          </Link></div>
+          
+          <div onClick={()=>setToggle(false)} className="p-2 py-3 hover:bg-red-500 hover:text-gray-300 rounded-xl transition duration-300"> <Link
             to="certification"
-            className="p-2 py-3 hover:bg-red-500 hover:text-gray-300  rounded-xl transition duration-300"
           >
             Certifications
-          </Link>
-          <Link
+          </Link></div>
+         
+          <div onClick={()=>setToggle(false)} className="p-2 py-3 hover:bg-red-500 hover:text-gray-300 rounded-xl transition duration-300"><Link
             to="profile"
-            className="p-2 py-3 hover:bg-red-500 hover:text-gray-300  rounded-xl transition duration-300"
           >
             Profile
-          </Link>
-          <Link
+          </Link></div>
+          
+          <div onClick={()=>setToggle(false)} className="p-2 py-3 hover:bg-red-500 hover:text-gray-300 rounded-xl transition duration-300"><Link
             to="contact"
-            className="p-2 py-3 hover:bg-red-500 hover:text-gray-300  rounded-xl transition duration-300"
           >
             Conatct
-          </Link>
+          </Link></div>
+          
         </div>
       )}
     </header>

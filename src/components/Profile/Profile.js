@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
@@ -19,6 +19,10 @@ function Profile() {
     easing: 'ease-in-sine',
     delay: 100,
   });
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])
+  
   return (
     <div>
       <h1 className="mx-2 text-2xl uppercase font-bold mt-5 flex py-2 border border-b-red-600 justify-center ">
