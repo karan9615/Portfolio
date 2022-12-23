@@ -13,6 +13,9 @@ const ProfileCard = ({name,taglin,img}) => {
 function Projects() {
   return (
     <div className='mx-5'>
+      <span>
+        temp
+      </span>
       <h1 style={{fontFamily:"League Spartan,sans-serif"}} className="text-2xl uppercase font-bold mt-5 flex py-2 border border-b-red-600 justify-center ">
         Projects
       </h1>
